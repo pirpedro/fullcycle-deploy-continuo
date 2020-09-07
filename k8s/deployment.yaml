@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: gp-hpa
-        image: pirpedro/go-hpa
+        image: img-app-deployment
         resources:
           requests:
             memory: "32Mi"
